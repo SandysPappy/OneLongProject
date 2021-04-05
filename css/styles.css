@@ -1,0 +1,120 @@
+h1, h2, h3 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+
+  font-style: normal;
+  font-size: 20pt;
+  font-weight: bolder;
+  }
+
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+font-family: robotoBold;
+src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-style: normal;
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+body{
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+}
+
+img {
+  transform: translate(50px,0px);
+  border-radius: 30px;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url("../images/border.jpeg") 30 round;
+}
+
+ol {
+  list-style-type: none;
+}
+
+main {
+  background-color: white;
+  width:100%;
+}
+
+nav {
+  background-image: linear-gradient(blue, orange);
+  width:100%;
+}
+
+address {
+  text-shadow: 2px 2px #ff0000;
+  width:100%;
+}
+
+a:link {color: #000000}
+a:visited {color: #006600}
+a:hover {color: #FFCC00}
+a:active {color: #FF00CC}
+
+.info {
+  background-color: white;
+  width:100%;
+}
+
+.quotes {
+  background-color: white;
+  width:100%;
+}
+
+.foxy {
+  background-color: red;
+  width:100%;
+}
+.offices > li > figure > figcaption{
+  background-color: white;
+  width:100%;
+}
+.offices > li > span{
+  background-color: white;
+  width:100%;
+}
+
+#landingHeader {
+  background-color: purple;
+  width:100%;
+  font-family: roboto;
+}
+
+#timeOpen {
+  background-color: pink;
+  width:100%;
+  font-family: roboto;
+}
+
+#navBarList > li > a{
+  font-family: robotoBold;
+}
+
+footer {
+  background-color: white;
+  animation-name: example;
+  animation-duration: 5s;
+  width:100%;
+  color:blue;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
